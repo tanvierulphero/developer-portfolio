@@ -1,6 +1,6 @@
 body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin: 0 auto;
+    margin: 0;
     
 }
 .top-banner{
@@ -26,7 +26,6 @@ p{
     border-radius: 5px;
 }
 section{
-    margin-left: 10px;
     display: flex;
 }
 .half-width{
@@ -35,4 +34,9 @@ section{
 }
 .half-width img{
     width: 80%;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
